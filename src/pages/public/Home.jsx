@@ -7,7 +7,7 @@ export default function Home() {
           Ship your next app <span className="text-primary">faster</span>
         </h1>
         <p className="text-base-content/70 mx-auto mt-4 max-w-xl text-lg">
-          A batteries-included React + Vite boilerplate: routing, auth, theming, forms and a
+          A batteries-included React + Vite Starterkit: routing, auth, theming, forms and a
           reusable component library — ready on day one.
         </p>
       </section>
