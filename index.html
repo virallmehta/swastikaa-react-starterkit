@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111827" />
+
+    <!--
+      These tags use Vite's built-in "percent env var" interpolation, so they're
+      baked into the built HTML with real values from .env at build time —
+      not just injected client-side. This matters because social link
+      unfurlers (Facebook, X/Twitter, LinkedIn, Slack, WhatsApp) generally
+      don't execute JavaScript, so they only ever see what's in this file.
+      react-helmet-async (see src/components/common/Seo.jsx) overrides
+      these per-page for anything that DOES run JS (browsers, Googlebot).
+      Keep these as good site-wide defaults; per-page titles/descriptions/
+      images are set via <Seo /> in each page component.
+    -->
+    <title>%VITE_APP_NAME%</title>
+    <meta name="description" content="%VITE_SITE_DESCRIPTION%" />
+    <link rel="canonical" href="%VITE_SITE_URL%" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="%VITE_APP_NAME%" />
+    <meta property="og:title" content="%VITE_APP_NAME%" />
+    <meta property="og:description" content="%VITE_SITE_DESCRIPTION%" />
+    <meta property="og:url" content="%VITE_SITE_URL%" />
+    <meta property="og:image" content="%VITE_SITE_URL%%VITE_DEFAULT_OG_IMAGE%" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="%VITE_APP_NAME%" />
+    <meta name="twitter:description" content="%VITE_SITE_DESCRIPTION%" />
+    <meta name="twitter:image" content="%VITE_SITE_URL%%VITE_DEFAULT_OG_IMAGE%" />
+    <meta name="twitter:site" content="%VITE_TWITTER_HANDLE%" />
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
