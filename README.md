@@ -190,7 +190,7 @@ the same way for Wagtail pages or other dynamic content.
 
 ### Social preview cards — the one thing to know
 
-This boilerplate is a **client-rendered SPA**. That matters for SEO in one
+This Swastikaa React StarterKit is a **client-rendered SPA**. That matters for SEO in one
 specific way:
 
 - **Google is fine.** Googlebot executes JavaScript, so it sees the tags
@@ -239,7 +239,7 @@ against the WordPress REST API.
 
 ### SSR / SEO note
 
-This boilerplate is a client-rendered SPA (good for dashboards/SaaS apps).
+This Swastikaa React StarterKit is a client-rendered SPA (good for dashboards/SaaS apps).
 If you're building an SEO-critical marketing site or blog on top of
 headless WordPress/Wagtail, consider a meta-framework with SSR/SSG
 (Next.js, Astro, Remix) instead — the data-fetching patterns in
@@ -266,7 +266,7 @@ To initialize:
 ```bash
 git init
 git add .
-git commit -m "chore: initial commit from react-boilerplate"
+git commit -m "chore: initial commit from Swastikaa React StarterKit"
 ```
 
 ## Optional: AI coding assistants

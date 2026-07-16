@@ -1,9 +1,9 @@
 {
-  "name": "react-boilerplate",
+  "name": "swastikaa-react-starterkit",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Production-ready React + Vite boilerplate with Tailwind v4, DaisyUI, Router, Zustand, RHF+Zod, Axios, Toasts and an auth-ready structure. Works great for SaaS apps, marketing sites, and headless CMS front-ends (Wagtail / WordPress).",
+  "description": "Production-ready React + Vite starterkit with Tailwind v4, DaisyUI, Router, Zustand, RHF+Zod, Axios, Toasts and an auth-ready structure. Works great for SaaS apps, marketing sites, and headless CMS front-ends (Wagtail / WordPress).",
   "scripts": {
     "dev": "vite",
     "seo:generate": "node scripts/generate-seo-files.mjs",
