@@ -4,7 +4,7 @@
  * so there's a single place to see what env vars the app depends on.
  */
 export const ENV = {
-  APP_NAME: import.meta.env.VITE_APP_NAME || 'Swastikaa App',
+  APP_NAME: import.meta.env.VITE_APP_NAME || 'Swastikaa StarterKit App',
   APP_URL: import.meta.env.VITE_APP_URL || 'http://localhost:5173',
 
   SITE_URL: (import.meta.env.VITE_SITE_URL || 'http://localhost:5173').replace(/\/$/, ''),

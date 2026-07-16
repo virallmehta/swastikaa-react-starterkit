@@ -1,6 +1,6 @@
-# Swastika React StarterKit
+# Swastikaa React StarterKit
 
-A production-ready React + Vite starter for SaaS apps, marketing websites, and
+A production-ready React + Vite starterkit for SaaS apps, marketing websites, and
 headless CMS front-ends (WordPress / Wagtail). Batteries included: routing,
 auth scaffolding, theming, forms, and a small reusable component library.
 
